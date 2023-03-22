@@ -1,0 +1,51 @@
+.careers_title {
+  font-size: 40px;
+  font-family: "Antic";
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+#careers_file {
+  display: none;
+}
+.careers_image_main {
+  text-align: center;
+  .careers_img {
+    height: 600px;
+    @media (max-width: 768px) {
+      height: 300px;
+    }
+  }
+}
+.careers_para {
+  color: rgb(62, 62, 62);
+  font-weight: 15px;
+  text-align: center;
+}
+.careers_positions {
+  background-color: rgb(214, 236, 247);
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  .careers_card {
+    width: 80%;
+    .careers_card_header {
+      text-align: left;
+    }
+    .careers_card_para {
+      text-align: left;
+    }
+  }
+  .careers_button {
+    float: right;
+  }
+}
+.careers_modal_button {
+  float: right;
+
+}
+.careers_mobile_break {
+  padding-top: 30px;
+  @media (max-width: 768px) {
+    padding-top: 10px;
+  }
+}

@@ -1,0 +1,52 @@
+.contact_header {
+  text-align: center;
+  color: rgb(21, 103, 255);
+  font-size: 40px;
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
+}
+.contact_form {
+  padding-left: 20%;
+  padding-right: 20%;
+  @media (max-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .contact_form_button {
+    float: right;
+    width: 35%;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
+.contact_subheader {
+  padding-top: 50px;
+  text-align: center;
+  color: rgb(40, 37, 37);
+  font-size: 20px;
+  @media (max-width: 480px) {
+    font-size: 15px;
+  }
+}
+.contact_form {
+  text-align: left;
+  padding-top: 30px;
+}
+.contact_map {
+  text-align: center;
+  .contact_iframe {
+    width: 100%;
+  }
+  .contact_text {
+    text-align: left;
+    color: black;
+  }
+  .contact_map_sub_heading {
+    text-align: left;
+  }
+  .contact_para {
+    text-align: left;
+  }
+}

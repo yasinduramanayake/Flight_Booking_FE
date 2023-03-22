@@ -1,0 +1,44 @@
+.aboutus_main {
+  background-color: rgb(29, 27, 27);
+  text-align: center;
+  .heading {
+    font-size: 40px;
+    color: rgb(75, 27, 204);
+    font-family: "Antic";
+  }
+  .sub_heading {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: "Antic";
+  }
+  .about_para {
+    color: rgb(228, 213, 213);
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Times New Roman", Times, serif;
+  }
+}
+
+.our_team {
+  text-align: center;
+  .ourteam_heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: "Antic";
+  }
+  .para {
+    color: black;
+  }
+}
+.our_team_card {
+  background-color: rgb(4, 15, 35);
+  .heading {
+    padding-top: 10px;
+    color: white;
+  }
+  .sub_heading{
+   
+    color: white;
+  }
+}

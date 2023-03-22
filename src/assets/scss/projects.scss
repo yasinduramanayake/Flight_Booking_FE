@@ -1,0 +1,117 @@
+.projects_header {
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Antic";
+  font-size: 40px;
+  color: black;
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
+}
+.project_sub_heading {
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: left;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.project_padding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.project_padding_main {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.flip-box {
+  background-color: transparent;
+
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+
+  @media (max-width: 768px) {
+    height: 210px;
+  }
+  @media (min-width: 320px) and (max-device-width: 658px) {
+    height: 190px;
+  }
+
+  @media (min-width: 280px) and (max-device-width: 653px) {
+    height: 200px;
+  }
+  @media (min-width: 375px) and (max-device-width: 667px) {
+    height: 210px;
+  }
+  @media (min-width: 414px) and (max-device-width: 896px) {
+    height: 250px;
+  }
+  @media (min-width: 412px) and (max-device-width: 915px) {
+    height: 240px;
+  }
+  @media (min-width: 768px) and (max-device-width: 1024px) {
+    height: 140px;
+  }
+  @media (min-width: 1024px) and (max-device-width: 1366px) {
+    height: 190px;
+  }
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+.product_mobile_small_break2 {
+  padding-top: 40px;
+  @media (max-width: 768px) {
+    padding-top: 10px;
+  }
+  @media (min-width: 768px) and (max-device-width: 1024px) {
+    padding-top: 10px;
+  }
+  @media (min-width: 540px) and (max-device-width: 720px) {
+    padding-top: 40px;
+  }
+}
+.product_mobile_small_break1 {
+  padding-top: 40px;
+  @media (max-width: 768px) {
+    padding-top: 5px;
+  }
+  @media (min-width: 768px) and (max-device-width: 1024px) {
+    padding-top: 0;
+  }
+  @media (min-width: 540px) and (max-device-width: 720px) {
+    padding-top: 40px;
+  }
+}

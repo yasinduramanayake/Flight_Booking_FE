@@ -1,0 +1,76 @@
+.web-header-background {
+  background-color: rgb(71, 71, 71);
+  height: 100px;
+}
+
+.menu_item_text {
+  color: rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+  .menu_item_text_size {
+    font-size: 20px;
+  }
+}
+
+.extra_small_break {
+  padding-top: 0px;
+}
+.extra_small_break1 {
+  padding-top: 12px;
+}
+.small_break {
+  padding-top: 40px;
+}
+.header_left_allignment_text {
+  text-align: left;
+  .text_size {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(42, 163, 224);
+  }
+}
+.nevbar_allignment {
+  float: right;
+}
+.mediumbreak {
+  padding-top: 5%;
+}
+.largebreak {
+  padding-top: 13%;
+}
+
+
+.header_mobile_view {
+
+  @media (min-width: 480px) {
+    display: none;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    display: block;
+    .mobile_dromdown {
+      position: absolute;
+      padding-left: 32%;
+      padding-right: 32%;
+    }
+  }
+  @media (min-width: 280px) and (max-width: 653px) {
+    display: block;
+    .mobile_dromdown {
+      position: absolute;
+      padding-left: 32%;
+      padding-right: 10%;
+    }
+  }
+  @media (max-width: 480px) {
+    display: block;
+    .mobile_dromdown {
+      padding-right: 100px;
+    }
+  }
+}
+.header_web_view {
+  @media (max-width: 768px) {
+    display: none;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    display: none;
+  }
+}
